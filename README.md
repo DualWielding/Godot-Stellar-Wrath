@@ -10,3 +10,5 @@ Special thanks to :
 * Mouse icon made by Freepik from www.flaticon.com
 
 And, of course, the Godot game engine !
+
+Downloadable at : https://blames.itch.io/stellar-wrath
