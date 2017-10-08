@@ -1,0 +1,116 @@
+[gd_scene load_steps=16 format=1]
+
+[ext_resource path="res://Sounds/BLEUAAAAAAAAAAH.wav" type="Sample" id=1]
+[ext_resource path="res://Sounds/aiguBLEUAAAAAAAAAAH.wav" type="Sample" id=2]
+[ext_resource path="res://Sounds/CrowdFear.wav" type="Sample" id=3]
+[ext_resource path="res://Sounds/friture1.wav" type="Sample" id=4]
+[ext_resource path="res://Sounds/friture2.wav" type="Sample" id=5]
+[ext_resource path="res://Sounds/GazBoum.wav" type="Sample" id=6]
+[ext_resource path="res://Sounds/InfernoBoum.wav" type="Sample" id=7]
+[ext_resource path="res://Sounds/OriginalFear.wav" type="Sample" id=8]
+[ext_resource path="res://Sounds/AsteroPlanetSand.wav" type="Sample" id=9]
+[ext_resource path="res://Sounds/FragmentTouch.wav" type="Sample" id=10]
+[ext_resource path="res://Sounds/Gigaboum2.wav" type="Sample" id=11]
+[ext_resource path="res://Sounds/TerranBoum.wav" type="Sample" id=12]
+[ext_resource path="res://Sounds/TerranSiren.wav" type="Sample" id=13]
+[ext_resource path="res://Sounds/AsteroPlanetWater.wav" type="Sample" id=14]
+
+[sub_resource type="SampleLibrary" id=1]
+
+samples/AsteroidCrying = {
+"db": 0.0,
+"pitch": 1.0,
+"priority": 0,
+"sample": ExtResource( 1 )
+}
+samples/AsteroidCryingHigh = {
+"db": 0.0,
+"pitch": 1.0,
+"priority": 0,
+"sample": ExtResource( 2 )
+}
+samples/CrowdFear = {
+"db": 0.0,
+"pitch": 1.0,
+"priority": 0,
+"sample": ExtResource( 3 )
+}
+samples/Frying1 = {
+"db": 0.0,
+"pitch": 1.0,
+"priority": 0,
+"sample": ExtResource( 4 )
+}
+samples/Frying2 = {
+"db": 0.0,
+"pitch": 1.0,
+"priority": 0,
+"sample": ExtResource( 5 )
+}
+samples/GasBoom = {
+"db": 0.0,
+"pitch": 1.0,
+"priority": 0,
+"sample": ExtResource( 6 )
+}
+samples/InfernoBoom = {
+"db": 0.0,
+"pitch": 1.0,
+"priority": 0,
+"sample": ExtResource( 7 )
+}
+samples/OriginalFear = {
+"db": 0.0,
+"pitch": 1.0,
+"priority": 0,
+"sample": ExtResource( 8 )
+}
+samples/SandChomp = {
+"db": 0.0,
+"pitch": 1.0,
+"priority": 0,
+"sample": ExtResource( 9 )
+}
+samples/ShardTouch = {
+"db": 0.0,
+"pitch": 1.0,
+"priority": 0,
+"sample": ExtResource( 10 )
+}
+samples/TelluricBoom = {
+"db": 0.0,
+"pitch": 1.0,
+"priority": 0,
+"sample": ExtResource( 11 )
+}
+samples/TerranBoom = {
+"db": 0.0,
+"pitch": 1.0,
+"priority": 0,
+"sample": ExtResource( 12 )
+}
+samples/TerranSiren = {
+"db": 0.0,
+"pitch": 1.0,
+"priority": 0,
+"sample": ExtResource( 13 )
+}
+samples/WaterChomp = {
+"db": 0.0,
+"pitch": 1.0,
+"priority": 0,
+"sample": ExtResource( 14 )
+}
+
+[node name="SamplePlayer2D" type="SamplePlayer2D"]
+
+params/volume_db = 0.0
+params/pitch_scale = 1.0
+params/attenuation/min_distance = 1.0
+params/attenuation/max_distance = 2048.0
+params/attenuation/distance_exp = 1.0
+config/polyphony = 1
+config/samples = SubResource( 1 )
+config/pitch_random = 0.0
+
+
