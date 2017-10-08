@@ -1,4 +1,4 @@
-# Godo-Stellar-Wrath
+# Godot-Stellar-Wrath
 A physic-based game made for the OpenJam17
 
 Special thanks to :
